@@ -21,6 +21,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     void Update()
     {
         transform.position+= movement;
+        transform.Rotate(30f * Time.deltaTime, 50f * Time.deltaTime, 20f * Time.deltaTime);
 
         if (transform.position.x> limit || 
         transform.position.x<-limit)
