@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class CollisionScript : MonoBehaviour
 {
-    Void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter(Collision collision)
     {
-        print("Collision detected!");
+        print("Collision detected with" 
+        + collision.gameObject.name);
     }
 }
