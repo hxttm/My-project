@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class CollisionScript : MonoBehaviour
 {
-    Void OncollisionEnter(Collision collision)
+    Void OnCollisionEnter(Collision collision)
     {
-        print("Collided detected!");
+        print("Collision detected!");
     }
 }
