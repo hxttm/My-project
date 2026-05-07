@@ -7,9 +7,3 @@ public class CollisionScript : MonoBehaviour
         print("Collided detected!");
     }
 }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
